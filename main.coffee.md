@@ -40,7 +40,7 @@ Open up a console in a window and run commands from it.
       self.launchConsole = ->
         return if consoleWindow and !consoleWindow.closed
 
-        consoleWindow = window.open "http://distri.github.io/console/?0", "", "width=640,height=160"
+        consoleWindow = window.open "http://distri.github.io/console/", "", "width=640,height=160"
 
       Eval(I, self)
 
